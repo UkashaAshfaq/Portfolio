@@ -44,6 +44,7 @@ Project Structure:
 mask.py: The main script containing the core functionality.
 assets/fonts/OpenSans-Regular.ttf: The font used for generating attention diagrams.
 README.md: This file.
+requirements.txt: List of required packages.
 
 Functions:
 
