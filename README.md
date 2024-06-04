@@ -19,7 +19,7 @@ This project uses a pre-trained BERT model to predict masked tokens in a given t
 
 1. Clone this repository:
    
-   git clone https://github.com/UkashaAshfaq/Portfolio/bert-attention-visualization.git
+   git clone https://github.com/UkashaAshfaq/Portfolio/tree/bert-attention-visualization.git
    cd bert-attention-visualization
    
 2. Install the required packages:
