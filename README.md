@@ -26,7 +26,7 @@ This project uses a pre-trained BERT model to predict masked tokens in a given t
 
 pip install -r requirements.txt
 
-Usage:
+## Usage:
 
 Run the script:
 
@@ -39,14 +39,14 @@ Example:
 Text: The quick brown fox jumps over the [MASK] dog.
 The script will output the top K predictions for the masked token and generate attention diagrams saved as PNG files in the current directory.
 
-Project Structure:
+## Project Structure:
 
 mask.py: The main script containing the core functionality.
 assets/fonts/OpenSans-Regular.ttf: The font used for generating attention diagrams.
 README.md: This file.
 requirements.txt: List of required packages.
 
-Functions:
+## Functions:
 
 main()
 The main function that orchestrates the tokenization, prediction, and visualization processes.
@@ -63,15 +63,15 @@ Produces graphical representations of self-attention scores for each attention h
 generate_diagram(layer_number, head_number, tokens, attention_weights)
 Generates and saves a diagram representing self-attention scores for a single attention head.
 
-Contributing:
+## Contributing:
 
 Contributions are welcome! Please open an issue or submit a pull request if you have any improvements or bug fixes.
 
-License:
+## License:
 
 This project is licensed under the MIT License. See the LICENSE file for more details.
 
-Acknowledgements:
+## Acknowledgements:
 
 Hugging Face Transformers for the pre-trained BERT model.
 TensorFlow for the deep learning framework.
