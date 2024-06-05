@@ -44,29 +44,53 @@ To generate a crossword puzzle, run the following command:
 python generate.py data/structure1.txt data/words1.txt True output.png
 ```
 data/structure1.txt is the path to the structure file.
+
 data/words1.txt is the path to the words file.
+
 True or False specifies whether to use interleaved arc-consistency with backtracking.
+
 output.png is the optional path to save the generated crossword as an image.
-Project Structure
+
+## Project Structure:
+
 kotlin
+
 crossword-generator/
+
 ├── assets/
+
 │   └── fonts/
+
 │       └── OpenSans-Regular.ttf
 ├── data/
 │   ├── structure1.txt
+
 │   ├── structure2.txt
+
 │   ├── structure3.txt
+
 │   ├── words1.txt
+
 │   ├── words2.txt
+
 │   ├── words3.txt
+
 ├── crossword.py
+
 ├── generate.py
+
 ├── requirements.txt
+
 └── README.md
+
 assets/fonts/: Directory containing the font used for image output.
+
 data/: Directory containing structure and words files.
+
 crossword.py: Contains the Variable and Crossword classes which define the crossword structure and variables.
+
 generate.py: Contains the CrosswordCreator class which handles the CSP logic and generates the crossword puzzle.
-License
+
+## License:
+
 This project is licensed under the MIT License. See the LICENSE file for more details.
