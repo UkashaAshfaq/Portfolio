@@ -76,10 +76,14 @@ trait: 0 if the person does not have the trait, 1 if the person has the trait, o
 ### Example:
 
 name,mother,father,trait
+
 Harry,,,
+
 James,,,
+
 Lily,,,
-Contribution
+### Contribution:
+
 If you wish to contribute to this project, please fork the repository and submit a pull request with your changes.
 
 ### License:
