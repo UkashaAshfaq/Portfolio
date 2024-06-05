@@ -40,9 +40,11 @@ To run the PageRank algorithm on a given corpus, use the following command:
 
 ```bash
 python pagerank.py <corpus_directory>
-Replace <corpus_directory> with the directory containing the HTML files (e.g., corpus0, corpus1, or corpus2).
 
 ```
+
+Replace <corpus_directory> with the directory containing the HTML files (e.g., corpus0, corpus1, or corpus2).
+
 ### Example:
 
 python pagerank.py corpus0
