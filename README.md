@@ -59,21 +59,23 @@ crossword-generator/
 
 ├── assets/
 
-│   └── fonts/
+│── fonts/
 
-│       └── OpenSans-Regular.ttf
-├── data/
-│   ├── structure1.txt
+│── OpenSans-Regular.ttf
 
-│   ├── structure2.txt
+├──data/
 
-│   ├── structure3.txt
+│── structure1.txt
 
-│   ├── words1.txt
+│── structure2.txt
 
-│   ├── words2.txt
+│── structure3.txt
 
-│   ├── words3.txt
+│── words1.txt
+
+│── words2.txt
+
+│── words3.txt
 
 ├── crossword.py
 
