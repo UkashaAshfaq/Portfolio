@@ -17,21 +17,25 @@ This project uses a pre-trained BERT model to predict masked tokens in a given t
 
 ## Installation
 
-1. Clone this repository:
+### 1. Clone this repository:
    
    git clone https://github.com/UkashaAshfaq/Portfolio.git
    cd Portfolio
    git checkout bert-attention-visualization
    
-3. Install the required packages:
+### 2. Install the required packages:
 
+```bash
 pip install -r requirements.txt
+```
 
 ## Usage:
 
 Run the script:
 
+```bash
 python mask.py
+```
 
 Enter the text with a [MASK] token when prompted:
 
