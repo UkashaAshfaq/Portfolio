@@ -35,7 +35,7 @@ This is a Python implementation of the classic Minesweeper game with an AI that 
 
    ├── fonts/
 
-    │   └── OpenSans-Regular.ttf
+    │── OpenSans-Regular.ttf
 
     └── images/
 
