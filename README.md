@@ -42,9 +42,7 @@ pip install scikit-learn pandas
 
 To run the script, use the following command:
 
-python shopping.py data/shopping.csv
-
-Replace data/shopping.csv with the path to your CSV file containing the shopping data.
+python shopping.py shopping.csv
 
 ### Data Format:
 
